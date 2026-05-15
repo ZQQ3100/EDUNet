@@ -79,7 +79,7 @@ If you find this work helpful for your research, please consider citing our pape
 ```
 If you use the code, please cite this code repository:
 
-[![DOI](https://sandbox.zenodo.org/badge/1222664892.svg)](https://handle.test.datacite.org/10.5072/zenodo.499889)
+[![DOI](https://zenodo.org/badge/1222664892.svg)](https://doi.org/10.5281/zenodo.20213365)
 
 ## Related Projects
 [esL-Net++](https://github.com/ShinyWang33/eSL-Net-Plusplus)
