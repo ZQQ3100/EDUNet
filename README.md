@@ -18,6 +18,7 @@ All required packages are listed in `requirements.txt`. To install them, run:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Datasets
 
