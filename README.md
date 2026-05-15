@@ -1,27 +1,23 @@
 # EDUNet
 
-EDUNet: Event-Guided Deep Unfolding Network for Motion Deblurring
-This work is currently submitted to The Visual Computer.[Paper]() | [Bibtex]()
+Event-Guided Deep Unfolding for Lightweight and Interpretable Motion Deblurring.
+
+This work is currently submitted to The Visual Computer.
 
 ## Dependencies
 
-- pyton 3.8
-- pytorch >=1.0.0
-- torchvision
-- argparse
-- numpy
-- opencv-python
-- scipy
+- Python 3.6
+- PyTorch 1.10.2 (CUDA 11.3)
+- torchvision 0.11.3
+- CUDA 11.3 (for GPU support)
 
 You can create a new [Anaconda](https://www.anaconda.com/products/individual) environment with the above dependencies as follows.
 Please make sure to adapt the CUDA toolkit version according to your setup when installing torch and torchvision.
 
-```
-conda create -n edunet python=3.8
-conda activate edunet
-conda install pytorch torchvision cudatoolkit -c pytorch
-pip install argparse numpy opencv-python scipy 
-```
+All required packages are listed in `requirements.txt`. To install them, run:
+
+```bash
+pip install -r requirements.txt
 
 ## Datasets
 
@@ -82,9 +78,14 @@ python test.py
 - `--output_dir` : Path of the output folder.
 
 ## Citation
-If you find this work helpful for your research, please consider citing our paper:
-```latex
-
+If you find this work helpful for your research, please consider citing our paper (to be published):
+```
+@article{yu2022learning,
+  title={Event-Guided Deep Unfolding for Lightweight and Interpretable Motion Deblurring},
+  author={Qi, Na and Zhao, Qianqian and Yue, Huanjing and Chen, Liang},
+  booktitle={The Visual Computer}
+  year={2026},
+}
 ```
 
 ## Related Projects
