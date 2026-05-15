@@ -32,18 +32,6 @@ There are three kinds of data:
 
 #### Initialization
 
-- Create directory for training data
-
-  `mkdir train_data`
-
-  copy the testing data to directory './train_data/'
-
-- Create directory for testing data
-
-  `mkdir test_data`
-
-  copy the testing data to directory './test_data/'
-
 - Create directory for pretrained model
 
   `mkdir pre_trained`
@@ -79,6 +67,7 @@ python test.py
 - `--output_dir` : Path of the output folder.
 
 ## Citation
+
 If you find this work helpful for your research, please consider citing our paper (to be published):
 ```
 @article{yu2022learning,
@@ -88,6 +77,9 @@ If you find this work helpful for your research, please consider citing our pape
   year={2026},
 }
 ```
+If you use the code, please cite this code repository:
+
+[![DOI](https://sandbox.zenodo.org/badge/1222664892.svg)](https://handle.test.datacite.org/10.5072/zenodo.499889)
 
 ## Related Projects
 [esL-Net++](https://github.com/ShinyWang33/eSL-Net-Plusplus)
