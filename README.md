@@ -68,18 +68,18 @@ python test.py
 
 ## Citation
 
-If you find this work helpful for your research, please consider citing our paper (to be published):
+If you find this work helpful for your research, please consider citing our paper (under review):
 ```
-@article{yu2022learning,
+@unpublished{EDUNet2026,
   title={Event-Guided Deep Unfolding for Lightweight and Interpretable Motion Deblurring},
   author={Qi, Na and Zhao, Qianqian and Yue, Huanjing and Chen, Liang},
-  booktitle={The Visual Computer}
-  year={2026},
+  note={Submitted to \textit{The Visual Computer}, under review},
+  year={2026}
 }
 ```
 If you use the code, please cite this code repository:
 
-[![DOI](https://zenodo.org/badge/1222664892.svg)](https://doi.org/10.5281/zenodo.20213365)
+[![DOI](https://zenodo.org/badge/1222664892.svg)](https://doi.org/10.5281/zenodo.20213366)
 
 ## Related Projects
 [esL-Net++](https://github.com/ShinyWang33/eSL-Net-Plusplus)
