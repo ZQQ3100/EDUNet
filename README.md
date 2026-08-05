@@ -1,6 +1,6 @@
 # EDUNet
 
-Event-Guided Deep Unfolding for Lightweight and Interpretable Motion Deblurring.
+EDUNet: Lightweight Event-Guided Deep Unfolding for Interpretable Motion Deblurring.
 
 This work is currently submitted to The Visual Computer.
 
@@ -46,6 +46,7 @@ python train.py
 ```
 
 #### Testing
+* Download the [pretrained model](https://pan.baidu.com/s/10Lp6hSODq3Cy_1U4WyJ45Q) (code: stvh) to ./checkpoint
 
 ```shell
 python test.py
@@ -71,7 +72,7 @@ python test.py
 If you find this work helpful for your research, please consider citing our paper (under review):
 ```
 @unpublished{EDUNet2026,
-  title={Event-Guided Deep Unfolding for Lightweight and Interpretable Motion Deblurring},
+  title={EDUNet: Lightweight Event-Guided Deep Unfolding for Interpretable Motion Deblurring},
   author={Qi, Na and Zhao, Qianqian and Yue, Huanjing and Chen, Liang},
   note={Submitted to \textit{The Visual Computer}, under review},
   year={2026}
